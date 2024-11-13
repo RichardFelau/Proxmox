@@ -2,7 +2,7 @@
 # This script runs with the assumption of sudo priv
 # Define the new content to be added
 new_content="# Not for production use:
-deb http://download.proxmox.debian buster pve-no-subscription"
+deb http://download.proxmox.debian bookworm pve-no-subscription"
 kernel_content="# Enable Iommu support at boot:
 vfio
 vfio_iommu_type1
